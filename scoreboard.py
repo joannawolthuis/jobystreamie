@@ -66,7 +66,7 @@ while True:
                 what = str(ofInterest[i]),
                 source = updated)
             print(updated)
-            f = open("streamieMain.html", "w")
+            f = open("ScoreBoardOverlayHolding.html", "w")
             f.write(updated)
             f.close()
 window.close()
